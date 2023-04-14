@@ -1,0 +1,64 @@
+body {
+  background-color: darkseagreen;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  margin: 100px 30vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-area {
+  margin-top: 8px;
+  width: 100%;
+}
+.input-area .inputbox {
+  display: flex;
+  position: relative;
+}
+.input-area .inputbox input {
+  margin-top: 8px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.input-area .inputbox i {
+  position: absolute;
+  right: 10px;
+  top: 40%;
+}
+
+.check {
+  margin-top: 16px;
+  display: flex;
+}
+.check .checkbox {
+  align-items: center;
+}
+.check .checkbox button {
+  font-size: 24px;
+}
+.check button {
+  margin-left: auto;
+  border-radius: 5px;
+  padding: 4px 5%;
+  border: none;
+}
+.check button a {
+  text-decoration: none;
+}
+
+.login {
+  margin-top: 16px;
+  text-align: center;
+  width: 100%;
+}
+.login button {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 4px 12px;
+}/*# sourceMappingURL=style.css.map */
